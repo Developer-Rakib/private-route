@@ -1,0 +1,9 @@
+nav {}
+
+nav a {
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+}
