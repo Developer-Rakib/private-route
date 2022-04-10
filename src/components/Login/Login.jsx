@@ -19,7 +19,6 @@ const Login = () => {
     }
     return (
         <div>
-            <button >check</button>
             <h3>Please Login</h3>
             <button onClick={handleSigninWithGoogle}>Login with google</button>
             <form>
