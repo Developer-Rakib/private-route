@@ -2,6 +2,7 @@ import React from 'react';
 import { auth } from '../../firebase/firebase.init';
 import { useSignInWithGoogle } from 'react-firebase-hooks/auth'
 import { useLocation, useNavigate } from 'react-router-dom';
+import Swal from 'sweetalert2';
 
 
 const Login = () => {
@@ -18,6 +19,7 @@ const Login = () => {
     }
     return (
         <div>
+            <button >check</button>
             <h3>Please Login</h3>
             <button onClick={handleSigninWithGoogle}>Login with google</button>
             <form>
