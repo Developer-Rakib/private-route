@@ -17,6 +17,7 @@ const Login = () => {
                 navigate(from, { replace: true });
             })
     }
+
     return (
         <div>
             <h3>Please Login</h3>
@@ -25,7 +26,6 @@ const Login = () => {
                 <input type="email" placeholder='enter email' /> <br />
                 <input type="password" placeholder='enter password' /> <br />
                 <input type="submit" value="Login" /><br />
-
             </form>
         </div>
     );
